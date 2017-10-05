@@ -16,10 +16,11 @@ In Rhthym-Rider, users will be able to:
 
 Points will be awarded based on the following beat proximity ratings:
 
-  1. Perfect - 10
-  2. Great - 7
-  3. Good - 4
-  2. Okay - 1
+  1. Perfect: 10
+  2. Great: 7
+  3. Good: 4
+  4. Okay: 1
+  5. Miss: (-3)
 
 Bonus points will be awarded for stringing together any 'Perfect' and 'Great' ratings.
 
