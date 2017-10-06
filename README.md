@@ -12,7 +12,8 @@ Players must attempt to press each falling character as quickly and accurately a
 
 This project uses vanilla JavaScript for overall structure and game logic. `HTML5 Canvas` for DOM manipulation and rendering.
 
-```  draw() {
+```  
+draw() {
     if (
       Number(new Date()) >
       lastTime + Math.max(200, this.minWait + Math.random() * this.waitTime)
