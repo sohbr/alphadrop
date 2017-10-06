@@ -12,13 +12,24 @@ body {
   border: 5px double #78a5a3;
 }
 
+.rules {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 370px;
+  height: 200px;
+  align-items: center;
+  font-size: 25px;
+}
+
 #gamestartmenu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 290px;
+  top: 190px;
   visibility: visible;
   font-family: "Geo", sans-serif;
 }
@@ -41,6 +52,7 @@ body {
 }
 
 #startButton {
+  margin-top: 30px;
   text-align: center;
   width: 260px;
   height: 70px;
