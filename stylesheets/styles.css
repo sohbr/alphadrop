@@ -20,7 +20,9 @@ body {
   width: 370px;
   height: 200px;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: "Crete Round", serif;
+  color: #ce5a57;
 }
 
 #gamestartmenu {
