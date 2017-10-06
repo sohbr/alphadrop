@@ -1,0 +1,89 @@
+@import "reset.css";
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  border: 5px double #78a5a3;
+}
+
+#gamestartmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 290px;
+  visibility: visible;
+  font-family: "Geo", sans-serif;
+}
+#gameovermenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 290px;
+  visibility: hidden;
+  font-family: "Geo", sans-serif;
+}
+
+.game-name,
+.game-over-header {
+  font-weight: bold;
+  font-size: 80px;
+  color: #ce5a57;
+}
+
+#startButton {
+  text-align: center;
+  width: 260px;
+  height: 70px;
+  font-size: 50px;
+  color: #78a5a3;
+  border-radius: 5px;
+  border: 2px solid #78a5a3;
+}
+
+#restartButton {
+  text-align: center;
+  width: 200px;
+  height: 70px;
+  font-size: 50px;
+  color: #78a5a3;
+  border-radius: 5px;
+  border: 2px solid #78a5a3;
+}
+#startButton:hover,
+#restartButton:hover {
+  background-color: #78a5a3;
+  color: white;
+  border: 2px solid white;
+}
+.lives-score {
+  color: #78a5a3;
+  font-family: "Geo", sans-serif;
+  font-size: 60px;
+  width: 770px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.life-lives {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#score {
+  display: flex;
+  justify-content: flex-start;
+}
+#lives {
+  font-size: 55px;
+  margin-left: 15px;
+}

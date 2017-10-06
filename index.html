@@ -2,11 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="./stylesheets/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
     <title></title>
   </head>
   <body>
-    <canvas></canvas>
+    <section id="gamestartmenu">
+      <h1 class="game-name">ALPHA DROP</h1>
+      <button id="startButton">start game</button>
+    </section>
+
+    <section id="gameovermenu">
+      <h1 class="game-over-header">GAME OVER</h1>
+      <button id="restartButton">restart?</button>
+    </section>
+
+    <canvas id="canvas"></canvas>
+    <div class="lives-score">
+      <div class="life-lives">
+        <div id="life">life:</div>
+        <div id="lives"></div>
+      </div>
+      <div id="score">score:</div>
+    </div>
 
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
