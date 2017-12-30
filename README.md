@@ -49,6 +49,7 @@ draw() {
 ```  
 
 ### Improvements
+
   1. Add a visual feedback for when players press the correct key.  
   2. Add a backend to keep a high scores list.
   3. Feed in text from an outside source. 
