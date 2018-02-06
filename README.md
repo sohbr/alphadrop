@@ -3,6 +3,7 @@
 ### Background and Overview
 
 
+
 Alpha Drop is a touch-typing game designed to help players develop their typing speed and efficiency.
 
 [Live Link](https://sohbr.github.io/alphadrop/)
