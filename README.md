@@ -51,7 +51,6 @@ draw() {
   }
 ```  
 
-
 ### Improvements
 
   1. Add a visual feedback for when players press the correct key.  
