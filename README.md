@@ -6,6 +6,7 @@
 Alpha Drop is a touch-typing game designed to help players develop their typing speed and efficiency.
 
 
+
 [Live Link](https://sohbr.github.io/alphadrop/)
 
 Players must attempt to press each falling character as quickly and accurately as possible before the character falls off the bottom of the screen. Each game begins with 5 lives. As the game progresses, the pieces will fall faster and more often.
